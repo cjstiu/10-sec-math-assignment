@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ten Second Math Game</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="game-title">10 Seconds Maths Game</h1>
+                    <h4 id="user-score">Current Score: 0</h4>
+                    <p id="high-score">High Score: 0</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Time Left:</h2>
+                    <h1 id="time-left">10</h1>
+                    <br>
+                    <h1 id="equation"></h1>
+                    <input id="user-answer" type="number">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="font-weight-normal font-italic">Number Limit</h3>
+                            <h2 id="maxNumberDisplay">10</h2>
+                            <input class="col-8" id="numberlimit" type="range" min="10" max="100" value="10" step="5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
